@@ -44,16 +44,16 @@ const newContact = [{
 const addContact = myContacts.concat(newContact);
 console.log(addContact);
 
-/* Penggunaan function Push
-    const addContact = [{
-        id: 4,
-        name: "Evan Charles",
-        phone: "+6289 5627 436758",
-        email: "evan.chrls@yahoo.com"
-    }]
-    myContacts.push(addContact);
-    console.log(myContacts);\
-*/
+// Penggunaan function Push
+    // const addContact = [{
+    //     id: 4,
+    //     name: "Evan Charles",
+    //     phone: "+6289 5627 436758",
+    //     email: "evan.chrls@yahoo.com"
+    // }]
+    // myContacts.push(addContact);
+    // console.log(myContacts);
+
 
 // Filter Contact
 const filterContact = addContact.filter((item, index, array) => {

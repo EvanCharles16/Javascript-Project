@@ -1,6 +1,7 @@
 # Javascript Global Object
 
 
+```javascript
 const myContacts = [
     {
         id : 1,
@@ -26,7 +27,14 @@ const myContacts = [
         email : 'gamma@gacurio.dev'
     }
 ]
+``` 
+ ## Create Contact Console with method add contact , filter contact and delete contact
 
-// Create Contact Console with method add contact , filter contact and delete contact
+ <hr>
 
 
+<span style = "color : aquamarine; font-size : 22px; text-align: center;">
+        Ayo dilihat html dan javascriptnya !!!
+    <br>
+        Dijamin Bisa !!
+</span>

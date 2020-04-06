@@ -25,7 +25,6 @@ const myContacts = [{
 
 // Create Contact Console with method show contact add contact , filter contact and delete contact
 
-
 // Show Contact
 const showContacts = contacts => {
     for (let index = 0; index < contacts.length; index++) {
@@ -45,6 +44,16 @@ const newContact = [{
 const addContact = myContacts.concat(newContact);
 console.log(addContact);
 
+/* Penggunaan function Push
+    const addContact = [{
+        id: 4,
+        name: "Evan Charles",
+        phone: "+6289 5627 436758",
+        email: "evan.chrls@yahoo.com"
+    }]
+    myContacts.push(addContact);
+    console.log(myContacts);\
+*/
 
 // Filter Contact
 const filterContact = addContact.filter((item, index, array) => {
